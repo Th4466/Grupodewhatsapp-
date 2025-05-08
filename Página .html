@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Striker Tipster - Instruções</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      color: #000;
+    }
+
+    .arrow-top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 40px;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .step {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .step b {
+      font-weight: bold;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #1ebd5a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Seta no canto superior direito -->
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAEGALQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3zyx6t+dHlj1b86fRQAzyx6t+dHlj1b86fRQAzyx6t+dHlj1b86fRQAzyx6t+dHlj1b86fRQAzyx6t+dHlj1b86fRQAzyx6t+dHlj1b86fRQAzyx6t+dHlj1b86fRmgBnlj1b86PLHq350+igBnlj1b86PLHq350+igBnlj1b86PLHq350+igBnlj1b86PLHq350+igBnlj1b86KfRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRSN064oAWsPW/E1hojxpcSZd2A2r1A9TVbxR4nh0O1Kowe6YYRM9Pc15FeXk99dvc3UheRjyTQB73a3MV3CksMgdHGQR3qevG/CniubRJxDcOXtHOMenvXrltdRXluk8Lh43GQQaALFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAJuAOK5zxR4og0S1KoQ904+VPT3NHijxTDodsyIQ12w+RPT3ryC8vJ9Qunubhy8jnqaAC8vJ9QunuLlyzuck56e1QfhxRRQAnSun8K+K5tEnW3nYvaOeh6r9K5mkI9wR2oA+hLa6hu7dJ4XDxsMgipgc1454V8VS6JcLDMWe0c4YH+H3Feu2lzFd26zwOHjYZBFAE9FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAAelc34n8TRaHbFEBkuXGFQDp710lU5tMtLiTzJoEd/UrQB4TeXVzf3Lz3DO8jHnIPHtUGxvRh/wE170NF03H/HnD/3wKjuNG04W0pFnCDsPIQelAHhA6Hj8aKmvBi9uAOAJCAPxqGgApVXJwq525zxSYzXc/Dqzt7ue88+GOQBRjcufWgDh9rYPytz7Gun8KeKZ9EuBDcbntH+9wflr1MaLpo4+xw4/wBwUf2Jpv8Az5Qf98CgCe2uY7qCOaF9yOMg+tWKhhto7eMRxKEQfwipqACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqO4/49pf9w/yqSo7j/j2l/3D/KgDwC9/4/rn/rq386gqe9/4/rn/AK6t/OoKACvQPhj/AK+8+i/1rz+vQPhj/r7z6L/WgD0qiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACorn/AI9pf9w/yqWo5wWt5FAySpA/KgDwC9/4/rn/AK6N/OoPw/Wuju/CWtveTutk+GdiOnIzUP8Awh+u/wDPi/5igDC5r0D4Y/6+8+i/1rnP+EO13/nxb8xXZeAtEv8ASpro3luYg4G3PfrQB3dFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACYFFLRQAnFHApaKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z" alt="Seta para cima" class="arrow-top-right" />
+
+  <h2>Instruções</h2>
+
+  <div class="step">
+    <p><b>Passo 1:</b><br>
+    Clique nos 3 pontos indicados pela seta à direita no topo da página.</p>
+
+    <p><b>Passo 2:</b><br>
+    IOS: Clique em <b>"Abrir no navegador"</b>.<br>
+    Android: Clique em <b>"Abrir no Chrome"</b>.</p>
+  </div>
+
+  <a href="https://chat.whatsapp.com/LHbfkrITXHvICiDn8NnnLv" target="_blank" class="button">Grupo de WhatsApp 1</a>
+  <a href="https://chat.whatsapp.com/C935OrpyjRID6wqWGiSd9o" target="_blank" class="button">Grupo de WhatsApp 2</a>
+
+</body>
+</html>
